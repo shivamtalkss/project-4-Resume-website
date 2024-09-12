@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <div class="container">
+           <div class="navbar">
+
+               <div class="logocontainer">
+                   <img src="./images/NavLogo.png" class="logo">
+                    <div class="logotext">John doe</div>
+               </div>
+
+               <div class="nav-items">
+                   <div> <a href="#Projects">Projects</a></div>
+                   <div> <a href="#Skills">Skills</a></div>
+                  <div> <a href="#contactme">Contact me</a></div>
+              </div>
+
+           </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="hero-section">
+
+       <div class="faded-text">John Doe</div>
+
+        <div class="hero-section-left">
+            <div class="hero-section-heading">Hi! John Doe</div>
+            
+            <div class="hero-section-heading hero-section-sub-heading">
+                I am a <span class="role"></span>
+            </div>
+            
+             <div class="hero-section-description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet voluptatem culpa eaque adipisci neque minus dolorem quos sit non vitae blanditiis voluptate hic, impedit optio quasi porro aperiam, obcaecati fugiat!
+             </div>
+
+             <div class="btn-pink" id="btn">Hire me</div>
+        </div>
+
+        <div class="hero-section-right">
+          
+            <div class="absolute icons icon-dots">
+                <img src="./images/dots.png" alt=""/>
+            </div>
+
+            <div class="absolute icons icon-cube">
+                <img src="./images/cube.png" alt=""/>
+            </div>
+
+            <div class="absolute icons icon-circle">
+                <img src="./images/circle.png" alt=""/>
+            </div>
+
+            <div class="absolute icons icon-zigzag">
+                <img src="./images/zigzags.png" alt=""/>
+            </div>
+
+            <div class="absolute icons icon-plus">
+                <img src="./images/plus.png" alt=""/>
+            </div>
+
+            <div class="user-image">
+                <img src="./images/UserImage.png" alt=""/>
+            </div>
+        
+        </div>
+       
+
+    </div>
+
+    <div class="project-section">
+
+        <h2 class="page-header">Projects</h2>
+
+         <div class="project-container">
+             <div class="project-card" id="project1">
+                <div class="project-number project-number-right">01</div>
+                <div class="projectcontent project-content-left">
+                    <div class="project-skills-container">
+                        <img class="project-skills" src="images/HTML.png" alt=""/>
+                        <img class="project-skills" src="images/CSS.png" alt=""/>
+                        <img class="project-skills" src="images/Javascript.svg" alt=""/>
+                        <img class="project-skills" src="images/Express.png" alt=""/>
+                        <img class="project-skills" src="images/NextJsCircle.png" alt=""/>
+                        <img class="project-skills" src="images/Tailwind.png" alt=""/>
+                        <img class="project-skills" src="images/NodeJs.svg" alt=""/>
+                        <img class="project-skills" src="images/MongoDB.svg" alt=""/>
+                        <img class="project-skills" src="images/Redux.svg" alt=""/>
+                        <img class="project-skills" src="images/Vercel.svg" alt=""/>
+                    </div>
+                    <h2 class="project-heading">Tint & Orange</h2>
+                    <div class="project-subheading">Its car modification company
+                        which provides you sheets to protect your car from scratch
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="btn-pink">Read More</button>
+                        <a href="">
+                            <i title="GithubLink" class="fa-brand fa-github icon"></i>
+                        </a>
+                        <a href="">
+                            <i title="LiveLink" class="fa-solid fa-link icon"></i>
+                        </a>
+                    </div>
+                </div>
+             </div>
+         </div>
+
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings: [
+          "Coder",
+          "Software Developer",
+          "Full Stack Developer",
+          "Web Developer",
+          "UI-UX Designer",
+          "Backend Developer",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
+</body>
+</html>
